@@ -1,8 +1,6 @@
 package org.launchcode.models;
 
-/**
- * Created by LaunchCode
- */
+
 public class JobField {
 
     private String value;

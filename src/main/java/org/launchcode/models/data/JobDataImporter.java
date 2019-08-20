@@ -1,19 +1,22 @@
 package org.launchcode.models.data;
 
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVParser;
-import org.apache.commons.csv.CSVRecord;
-import org.launchcode.models.*;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.apache.commons.csv.CSVFormat;
+import org.apache.commons.csv.CSVParser;
+import org.apache.commons.csv.CSVRecord;
+
+import org.launchcode.models.CoreCompetency;
+import org.launchcode.models.Employer;
+import org.launchcode.models.Job;
+import org.launchcode.models.Location;
+import org.launchcode.models.PositionType;
 
 /**
  * Created by LaunchCode

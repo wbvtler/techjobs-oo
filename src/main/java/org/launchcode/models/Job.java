@@ -1,8 +1,6 @@
 package org.launchcode.models;
 
-/**
- * Created by LaunchCode
- */
+
 public class Job {
 
     private int id;
